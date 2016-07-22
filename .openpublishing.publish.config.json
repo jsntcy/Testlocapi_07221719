@@ -1,0 +1,34 @@
+{
+  "build_entry_point": "docs",
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "testlocapi-docs",
+      "build_source_folder": "testlocapi-docs1",
+      "build_output_subfolder": "testlocapi-docs",
+      "locale": "zh-cn",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    }
+  ],
+  "skip_source_output_uploading": false,
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
+      "branch": "master",
+      "branch_mapping": {}
+    }
+  ],
+  "need_generate_intellisense": false,
+  "package_version": null,
+  "notification_subscribers": [],
+  "report_severity_level": null,
+  "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": null,
+  "git_repository_branch_open_to_public_contributors": null,
+  "skip_source_output_uploading": false
+}
